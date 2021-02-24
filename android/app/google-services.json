@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "146818564239",
+    "project_id": "shopping-app-e2f5b",
+    "storage_bucket": "shopping-app-e2f5b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:146818564239:android:45c2733a587abfa0bd30fa",
+        "android_client_info": {
+          "package_name": "com.gandalf_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "146818564239-1emjaa0lb3vgpo19fufn70ora3989c7r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmn3It14f4VNWdzM_XRFUAz7d9Bf1T5VQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "146818564239-1emjaa0lb3vgpo19fufn70ora3989c7r.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "146818564239-gs5ck8qjrmq7or2i2pkojmfeu9jo1aqf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.gandalf-app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
