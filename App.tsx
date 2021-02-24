@@ -8,7 +8,7 @@
  * @format
  */
 
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import {
   SafeAreaView,
   StyleSheet,
@@ -25,10 +25,18 @@ import {
   DebugInstructions,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import firestore from '@react-native-firebase/firestore'
 
 declare const global: {HermesInternal: null | {}};
 
 const App = () => {
+  const [data, setDate] = useState();
+
+  useEffect(() => {
+    firestore().collection('products').get().then(querySnapshot => {
+      console.log(querySnapshot)
+    })
+  },[])
   return (
     <>
       <StatusBar barStyle="dark-content" />
