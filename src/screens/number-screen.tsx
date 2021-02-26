@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Text, View, StyleSheet } from 'react-native'
 import TextInputComp from '../components/textInputcomp'
-import BackArrow from '../svg/back-arrow'
+import { BackArrow } from '../components/svg/back-arrow'
 
 const NumberScreen = () => {
 
